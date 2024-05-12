@@ -17,7 +17,7 @@
     <section>
 
       <form action="kalenteri.php" method="GET" target="_blank">
-
+      <div class="grid-container">
         Vuosi: <input type="number" name="year" value="<?php echo date("Y"); ?>"><br>
 
         Kuukausi:
@@ -51,7 +51,7 @@
         <textarea name="names" rows="5"><?= $defaultnames ?></textarea><br>
 
         <input type="submit" value="Avaa kalenterisivu">
-
+      </div>
       </form>
     </section>
     <footer>
